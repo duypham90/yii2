@@ -1,0 +1,53 @@
+
+.login-wrapper {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    margin-left: 0;
+    animation: bounceInDownSmall 1s ease;
+    -webkit-animation: bounceInDownSmall 1s ease;
+    -moz-animation: bounceInDownSmall 1s ease;
+    -ms-animation: bounceInDownSmall 1s ease;
+    -o-animation: bounceInDownSmall 1s ease
+}
+.login-wrapper.fadeOutUp {
+    animation: fadeOutUp .5s ease-out;
+    -webkit-animation: fadeOutUp .5s ease-out;
+    -moz-animation: fadeOutUp .5s ease-out;
+    -ms-animation: fadeOutUp .5s ease-out;
+    -o-animation: fadeOutUp .5s ease-out;
+    opacity: 0
+}
+.login-wrapper .login-widget {
+    margin: 20px auto 0;
+    width: 400px
+}
+.panel {
+    position: relative;
+    background: #fff
+}
+.panel.panel-default {
+    border-color: #f1f5fc
+}
+.panel.panel-default .panel-heading+.panel-collapse .panel-body {
+    border-top-color: #f1f5fc
+}
+.panel.panel-default .panel-heading {
+    background: #fff;
+    color: #777;
+    border-color: #f1f5fc
+}
+.panel.panel-default .panel-title a {
+    font-size: 12px
+}
+.panel.panel-default .panel-title a:focus,
+.panel.panel-default .panel-title a:hover {
+    text-decoration: none;
+    color: #aaa
+}
+@media (max-width: 480px) {
+    .login-wrapper .login-widget {
+        width: 100%
+    }
+}
+
